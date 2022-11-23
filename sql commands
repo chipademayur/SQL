@@ -1,0 +1,19 @@
+for ROOT user->mysql -u root -p              pass->Mayur@123
+For showing the database in server.->show databases;
+for creating database ->create database DB_Name;   e.g->create database mayurdb;
+for selecting database for inserting records->USE DB.Name;    e.g->USE mayurdb;
+for creating table-
+                  CREATE TABLE TABLE_Name(column1 datatype,
+                  column2 datatype,
+                  column3 datatype,
+                  ....
+                  );
+for inserting values in table->
+                              INSERT INTO table_name (column1, column2, column3, ...)
+                              VALUES (value1, value2, value3, ...);
+                              e.g->INSERT INTO employee (PersonID,Name,Address)VALUES(1,"Mayur","Kadus");
+for showing table's in in database->SHOW TABLES;
+For showing the inserted data of table -> SELECT*FROM Table_Name;  e.g-SELECT*FROM employee;
+    
+                                 
+                                        
